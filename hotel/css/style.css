@@ -1,0 +1,304 @@
+body{
+    min-width: 1340px;
+    min-height: 1250px;
+}
+/* Title */
+body .title {
+    margin-left: 83px;
+    margin-top: 40px
+}
+body .title h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+#hotel_list{
+    margin-left: 158px;
+    margin-right: 100px;
+    margin-top: 65px;
+    min-width: 1110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* Hotel Blue Haven */
+#hotel_list .blue_heven{
+    position: relative;
+    display: flex;
+    margin-bottom: 30px;
+    width: 730px;
+    height: 500px;  
+    background: #0A223D;
+    border-radius: 8px 8px 8px 8px;
+}
+#hotel_list .blue_heven .image img{
+    border-radius: 8px 0px 0px 8px;;
+}
+#hotel_list .blue_heven .image .flash_offer{
+    position: absolute;
+    width: 95px;
+    height: 30px;
+    top: 26px;
+    background: #EC1F46;
+    border-radius: 0px 8px 8px 0px;
+}
+#hotel_list .blue_heven .image .flash_offer span{
+    position: absolute;
+    width: 72px;
+    height: 15px;
+    left: 11px;
+    top: 8px;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: white;
+}
+#hotel_list .blue_heven .about .hotel_name{
+    width: 149px;
+    height: 36px;
+    margin-left: 43px;
+    margin-top: 50px;
+}
+#hotel_list .blue_heven .about .hotel_name .stars{
+    width: 48px;
+    height: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -4px;
+}
+#hotel_list .blue_heven .about .hotel_name .stars img{
+    width: 8px;
+    height: 8px;
+}
+#hotel_list .blue_heven .about .hotel_name p{
+    width: 149px;
+    height: 23px;
+    margin-top: 5px;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+}
+#hotel_list .blue_heven .about .text p{
+    position: absolute;
+    width: 299px;
+    height: 165px;
+    left: 409px;
+    top: 94px;
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.22px;
+    color: white;
+}
+#hotel_list .blue_heven .about .room{
+    width: 203px;
+    height: 67px;
+    margin-top: 229px;
+    margin-left: 45px;
+}
+#hotel_list .blue_heven .about .room p{
+    margin-top: -20px;
+    margin-left: 28px;
+    width: 175px;
+    height: 15px;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: 0.1px;
+    color: white;
+}
+#hotel_list .blue_heven .about .cost{
+    margin-left: 46px;
+    margin-top: 34px;
+}
+#hotel_list .blue_heven .about .cost span{
+    width: 58px;
+    height: 18px;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;    
+    text-decoration-line: line-through;
+    color:white;
+}
+#hotel_list .blue_heven .about .sale_cost{
+    margin-left: 46px;
+    margin-top: 6px;
+}
+#hotel_list .blue_heven .about .sale_cost span{
+    width: 85px;
+    height: 30px;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color:white;
+}
+#hotel_list .blue_heven .about .book_now{
+    margin-left: 221px;
+    margin-top: -37px;
+}
+#hotel_list .blue_heven .about .book_now button{
+    border: none;
+    width: 120px;
+    height: 40px;
+    background: #EC1F46;
+    border-radius: 4px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* LUX* Belle Mare */
+#hotel_list .belle_mare{
+    position: relative;
+    width: 350px;
+    height: 500px;
+    background: #0A223D;
+    border-radius: 8px 8px 8px 8px;
+}
+
+/* White Palace */
+#hotel_list .white_palase{
+    position: relative;
+    width: 350px;
+    height: 500px;
+    background: #0A223D;
+    border-radius: 8px 8px 8px 8px;
+ } 
+ /* Luxury Place */
+ #hotel_list .luxury_palace{
+    position: relative;
+    width: 350px;
+    height: 500px;
+    background: #0A223D;
+    border-radius: 8px 8px 8px 8px;
+}
+
+/* Hotel Five Star */
+#hotel_list .five_star{
+    position: relative;
+    width: 350px;
+    height: 500px;
+    background: #0A223D;
+    border-radius: 8px 8px 8px 8px;
+} 
+/* схожие элементы */
+#hotel_list .image img{
+    border-radius: 8px 8px 0px 0px;
+}
+#hotel_list .image .flash_offer{
+    position: absolute;
+    width: 60px;
+    height: 18px;
+    top: 26px;
+    background: #EC1F46;
+    border-radius: 0px 4px 4px 0px;
+}
+#hotel_list .image .flash_offer span{
+    position: absolute;
+    width: 60px;
+    height: 18px;
+    left: 9px;
+    top: 4px;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 10px;
+    color: white;
+}
+#hotel_list .about .hotel_name{
+    width: 138px;
+    height: 23px;
+    margin-left: 32px;
+    margin-top: 28px;
+}
+#hotel_list .about .hotel_name p{
+    
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+}
+#hotel_list .about .room{
+    width: 203px;
+    height: 67px;
+    margin-top: 23px;
+    margin-left: 32px;
+}
+#hotel_list .about .room p{
+    margin-top: -19px;
+    margin-left: 28px;
+    width: 175px;
+    height: 15px;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    color: white;
+}
+#hotel_list .about .cost{
+    margin-left: 32px;
+    margin-top: 24px;
+}
+#hotel_list .about .cost span{
+    width: 58px;
+    height: 18px;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;    
+    text-decoration-line: line-through;
+    color:white;   
+}
+#hotel_list .about .sale_cost{
+    margin-left: 32px;
+    margin-top: 5px;
+}
+#hotel_list .about .sale_cost span{
+    width: 85px;
+    height: 30px;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color:white;
+}
+#hotel_list .about .book_now{
+    margin-left: 207px;
+    margin-top: -35px;
+}
+#hotel_list .about .book_now button{
+    border: none;
+    width: 120px;
+    height: 40px;
+    background: #EC1F46;
+    border-radius: 4px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+    cursor: pointer;
+}
